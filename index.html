@@ -272,7 +272,7 @@
           </p>
 
           <div id="counter">
-            Microplastics avoided by Sipra customers: <span id="count">0</span>
+            Microplastics avoided by Sipra customers today: <span id="count">0</span>
           </div>
         </div>
 
@@ -294,11 +294,11 @@
             <h3>Borosilicate glass</h3>
             <p>
               This heat-resistant and biodegradable type of glass does not
-              contain microplastics or require potentially risky liner
+              contain microplastics or require risky liner
               materials. Our bottles have undergone rigorous stress and drop
               tests to ensure resistance to breaking. In the rare case that a
-              Sipra bottle breaks, the glass is designed to break cleanly rather
-              than completely shatter, making cleanup easy no matter what.
+              Sipra bottle breaks, the glass is designed to break cleanly instead 
+              of shattering, making cleanup easy no matter what.
             </p>
           </div>
           <img src="glass.PNG"/>
@@ -309,10 +309,10 @@
             <h3>Cork cover and leak proofing</h3>
             <p>
               Not only does Sipra's use of cork lend to an effortlessly classy,
-              vintage look, it offers significant improvements over other water
+              vintage look, it offers significant improvements over other
               bottle designs. Instead of bacteria-prone and
               environmentally-harmful silicone parts, Sipra uses biodegradable
-              components to protect and leakproof bottles.
+              components to protect bottles and stop leakage in its tracks.
             </p>
           </div>
           <img src="cork.JPG"/>
@@ -323,7 +323,7 @@
             <h3>Artisan stamping</h3>
             <p>
               Glass and cork materials allow for unique and stylish branding;
-              our logo is heat-stamped into the cork lid and meticulously etched
+              our logo is heat-stamped into the cork cover and meticulously etched
               into the glass' surface. This style looks especially beautiful
               when accompanied with decorative stickers.
             </p>
@@ -335,9 +335,9 @@
           <div>
             <h3>Removable and replaceable components</h3>
             <p>
-              All Sipra components can be easily removed for washing, and can be
-              purchased individually from our storefront for an affordable
-              price.
+              All Sipra components can be easily removed for washing. If replacement 
+              is necessary, parts may be purchased individually from our storefront 
+              for an affordable price.
             </p>
           </div>
           <img src="removable.JPG"/>
@@ -347,10 +347,9 @@
           <div>
             <h3>Diverse models</h3>
             <p>
-              In order to address multiple use cases and accessibility issues,
+              To address multiple use cases and accessibility issues,
               Sipra offers a variety of lids, extra components like infuser
-              cores, and two different bottle types: a standard shape for
-              on-the-go sipping and smaller bottles for mothers of young
+              cores, and a veriety of sizes, with special smaller bottles for mothers of young
               children. For customers with unique needs, Sipra has you covered.
             </p>
           </div>
@@ -363,11 +362,11 @@
             <p>
               At Sipra, we prioritize giving customers all the information they
               need to make informed choices about how to stay hydrated. Not only
-              does release yearly budget reports to the public to maintain
-              accountability, our design team is staying constantly up-to-date
-              on the latest technologies and communicating updates through our
+              do we release yearly budget reports to the public to maintain
+              accountability, our design team always stays up-to-date
+              on the latest technologies. We communicate updates through our
               newsletter, ensuring that customers are always informed about the
-              latest ways to drink safely and sustainably.
+              latest ways to sip safely and sustainably.
             </p>
           </div>
           <img src="accountability.JPG"/>
@@ -377,17 +376,18 @@
       <section id="calc" class="page-height">
         <h2>Bacteria risk calculator</h2>
         <p>
-          For those of us who care about their environmental footprint, moving
+          For those of us who care about our environmental footprint, moving
           from single-use plastic water bottles to reusable plastic or metal
           water bottles is a big step in the right direction. Customers often
           assume these water bottles are safe, but many carry risks of bacterial
-          growth. Design elements are frequently difficult to clean, especially
-          flexible silicone components, which are often the most prone to
+          growth. Components like straws are frequently difficult to clean, especially
+          flexible silicone parts, which are often the most prone to
           bacterial infiltration. Calculate your risk of bacteria growth in your
           water bottle now.
         </p>
 
         <div class="calc-box">
+          <p>How many days has it been since you last washed your reusable water bottle with soap and hot water?</p>
           <input type="number" id="days" placeholder="Days" />
           <button onclick="calculateRisk()">Calculate</button>
           <div id="result"></div>
@@ -419,7 +419,7 @@
 
         if (days <= 1) result = "Low risk";
         else if (days <= 3) result = "Moderate risk";
-        else result = "High risk — consider cleaning your bottle.";
+        else result = "High risk — consider cleaning your bottle or staying safe with Sipra.";
 
         document.getElementById("result").textContent = result;
       }
