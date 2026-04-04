@@ -85,32 +85,14 @@
         transition: color 0.2s ease;
       }
 
-      /* Scribble-style underline (hidden by default) */
-      nav a::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: -3px;
-        width: 100%;
-        height: 6px;
-        background: var(--highlight);
-        transform: scaleX(0) skewX(-12deg);
-        transform-origin: left;
-        transition: transform 0.25s ease;
-        z-index: -1;
-      }
-
       /* Hover effect */
-      nav a:hover::after {
+      nav a:hover {
+        color: var(--primary);
         transform: scaleX(1) skewX(-12deg);
       }
 
-      nav a:hover {
-        color: var(--primary);
-      }
-
       /* Optional: active/current page */
-      nav a.active::after {
+      nav a.active {
         transform: scaleX(1) skewX(-12deg);
       }
 
